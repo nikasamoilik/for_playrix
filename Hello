@@ -1,0 +1,9 @@
+print('Enter the number of lines')
+count = input() 
+if count.isdigit():
+  i_count = int(count)
+  while i_count > 0:
+    print("Hello, Playrix!")
+    i_count = i_count - 1
+else:
+  print('The value entered is not a number')
